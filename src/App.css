@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,110 @@
     transform: rotate(360deg);
   }
 }
+.main{
+  
+  
+  height: 99.72vh;
+  width: 99.89%;
+}
+.container{
+  border-radius: 15px;
+  width: 80%;
+  margin: 70px;
+ display: flex;
+  height:80vh ;
+  
+  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 11px 10px 57px 15px rgba(0,0,0,0.52);
+-webkit-box-shadow: 11px 10px 57px 15px rgba(0,0,0,0.52);
+-moz-box-shadow: 11px 10px 57px 15px rgba(0,0,0,0.52);
+}
+.login{
+  border-radius: 15px;
+  width: 55%;
+  height: 82.5%;
+  
+  padding-top: 100px;
+  
+  background-color: rgb(7, 97, 232);
+  
+  
+}
+.card{
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  width: 600px;
+  height: 80%;
+  margin-left: 30px;
+  color: white;
+  
+  
+}
+.checkbox{
+  
+  display: flex;
+  font-size: 12px;
+  justify-content: space-evenly;
+  
+}
+.image{
+  border-radius: 15px;
+  width: 45%;
+  height: 82.1%;
+  padding: 40px;
+}
+.img{
+  
+  width: 100%;
+  height: 100%;
+}
+Link{
+  text-decoration: none;
+  color: white;
+}
+.Navbar{
+  background-color: #432de9;
+  height:60px ;
+  color: white;
+  
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  
+}
+.nav-item{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.card_2{
+  padding: 30px;
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 20px;
+  width: 250px;
+  height: 200px;
+  background-color: rgb(74, 45, 219);
+  color: white;
+  border-radius: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 11px 10px 57px 15px rgba(0,0,0,0.52);
+-webkit-box-shadow: 11px 10px 57px 15px rgba(0,0,0,0.52);
+-moz-box-shadow: 11px 10px 57px 15px rgba(0,0,0,0.52);
+}
+.data{
+  
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 20px;
+  justify-content: space-evenly;
+  
+}
+
+
