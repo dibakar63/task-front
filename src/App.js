@@ -8,16 +8,18 @@ import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import { Toaster } from 'react-hot-toast';
 import 'react-toastify/dist/ReactToastify.css'
+import Edit from './components/Edit';
 function App() {
   return (
     <div className="App">
     <Navbar/>
     <Toaster/>
         <Routes>
-          <Route path='/login' element={<Login/>}/>
+          <Route path='/' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
-          <Route path='/' element={<AddDetails/>}/>
+          <Route path='/add' element={<AddDetails/>}/>
           <Route path='/profile' element={<Profile/>}/>
+          <Route path='/edit/:id' element={<Edit/>}/>
         </Routes>
       
     </div>
